@@ -22,6 +22,7 @@ public class ParseIntegers {
         while (words.hasNext()) {
             String next = words.next();
             int number = Integer.parseInt(next);
+            sum=sum+number;
             // todo: complete it
         }
         System.out.println("Sum is " + sum);
